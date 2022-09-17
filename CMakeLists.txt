@@ -4,4 +4,4 @@ project(Playground)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Playground
-        Hashtables/jewels-and-stones.cpp)
+        Hashtables/how-many-numbers-are-smaller-than-the-current-number.cpp)

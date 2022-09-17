@@ -26,7 +26,6 @@ public:
     }
 };
 
-/*        */
 
 int main(){
     std::string j="aA",s="aAAbbbb";
