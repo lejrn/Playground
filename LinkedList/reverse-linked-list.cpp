@@ -28,10 +28,10 @@ public:
         // Three pointers that iterate together over the linked list, they move forward and switch over the next-pointers
         ListNode *current=head,*previous=nullptr;
         while(current!= nullptr){
-            ListNode *tail=current->next; // Increment left
+            ListNode *tail=current->next; // Increment towards the tail
             current->next=previous; // Flipping direction
-            previous=current; // Increment
-            current=tail; // Increment
+            previous=current; // Increments
+            current=tail; // Increments
         }
         head=previous;
         return head;
