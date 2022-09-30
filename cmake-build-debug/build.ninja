@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: Playground
+# Project: CppPlayground
 # Configurations: Debug
 # =============================================================================
 
@@ -39,46 +39,46 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Github/Playground/cmake-build-debug/
+cmake_ninja_workdir = C$:/Github/CppPlaygound/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Playground
+# Object build statements for EXECUTABLE target CppPlayground
 
 
 #############################################
-# Order-only phony target for Playground
+# Order-only phony target for CppPlayground
 
-build cmake_object_order_depends_target_Playground: phony || CMakeFiles/Playground.dir
+build cmake_object_order_depends_target_CppPlayground: phony || CMakeFiles/CppPlayground.dir
 
-build CMakeFiles/Playground.dir/Array/remove-element.cpp.obj: CXX_COMPILER__Playground_Debug C$:/Github/Playground/Array/remove-element.cpp || cmake_object_order_depends_target_Playground
-  DEP_FILE = CMakeFiles\Playground.dir\Array\remove-element.cpp.obj.d
+build CMakeFiles/CppPlayground.dir/Array/remove-element.cpp.obj: CXX_COMPILER__CppPlayground_Debug C$:/Github/CppPlaygound/Array/remove-element.cpp || cmake_object_order_depends_target_CppPlayground
+  DEP_FILE = CMakeFiles\CppPlayground.dir\Array\remove-element.cpp.obj.d
   FLAGS = -g -std=gnu++23
-  OBJECT_DIR = CMakeFiles\Playground.dir
-  OBJECT_FILE_DIR = CMakeFiles\Playground.dir\Array
+  OBJECT_DIR = CMakeFiles\CppPlayground.dir
+  OBJECT_FILE_DIR = CMakeFiles\CppPlayground.dir\Array
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Playground
+# Link build statements for EXECUTABLE target CppPlayground
 
 
 #############################################
-# Link the executable Playground.exe
+# Link the executable CppPlayground.exe
 
-build Playground.exe: CXX_EXECUTABLE_LINKER__Playground_Debug CMakeFiles/Playground.dir/Array/remove-element.cpp.obj
+build CppPlayground.exe: CXX_EXECUTABLE_LINKER__CppPlayground_Debug CMakeFiles/CppPlayground.dir/Array/remove-element.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Playground.dir
+  OBJECT_DIR = CMakeFiles\CppPlayground.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Playground.exe
-  TARGET_IMPLIB = libPlayground.dll.a
-  TARGET_PDB = Playground.exe.dbg
+  TARGET_FILE = CppPlayground.exe
+  TARGET_IMPLIB = libCppPlayground.dll.a
+  TARGET_PDB = CppPlayground.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Github\Playground\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Github\CppPlaygound\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -89,7 +89,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Github\Playground\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Github\Playground -BC:\Github\Playground\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Github\CppPlaygound\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2021.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Github\CppPlaygound -BC:\Github\CppPlaygound\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -99,7 +99,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Playground: phony Playground.exe
+build CppPlayground: phony CppPlayground.exe
 
 # =============================================================================
 # Folder targets.
@@ -107,9 +107,9 @@ build Playground: phony Playground.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Github/Playground/cmake-build-debug
+# Folder: C:/Github/CppPlaygound/cmake-build-debug
 
-build all: phony Playground.exe
+build all: phony CppPlayground.exe
 
 # =============================================================================
 # Built-in targets

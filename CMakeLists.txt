@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.21)
-project(Playground)
+project(CppPlayground)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(Playground
+add_executable(CppPlayground
         Array/remove-element.cpp)
