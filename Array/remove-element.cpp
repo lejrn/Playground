@@ -45,6 +45,13 @@ public:
         return nums.size()-k;
     }
 
+    int removeElement3(std::vector<int>& nums, int val) {
+        int k = 0;
+        for (int i = 0; i < nums.size(); ++i)
+            if(nums[i] != val)
+                nums[k++] = nums[i];
+        return k;
+    }
 
 
 };
@@ -53,7 +60,7 @@ int main(){
     Solution ans;
     std::vector<int> nums{3,1,3,3,3};
     int val=3;
-    std::cout << ans.removeElement2(nums,val) << std::endl;
+    std::cout << ans.removeElement3(nums,val) << std::endl;
     std::cout << std::endl;
     for(int i=0; i<nums.size(); i++)
         std::cout << nums[i] << std::endl;

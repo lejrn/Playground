@@ -4,4 +4,4 @@ project(CppPlayground)
 set(CMAKE_CXX_STANDARD 23)
 
 add_executable(CppPlayground
-        Array/remove-element.cpp)
+        Array/final-value-of-variable-after-performing-operations.cpp)
