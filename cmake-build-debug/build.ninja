@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Github/CppPlaygound/cmake-build-debug/
 
 build cmake_object_order_depends_target_CppPlayground: phony || CMakeFiles/CppPlayground.dir
 
-build CMakeFiles/CppPlayground.dir/Array/final-value-of-variable-after-performing-operations.cpp.obj: CXX_COMPILER__CppPlayground_Debug C$:/Github/CppPlaygound/Array/final-value-of-variable-after-performing-operations.cpp || cmake_object_order_depends_target_CppPlayground
-  DEP_FILE = CMakeFiles\CppPlayground.dir\Array\final-value-of-variable-after-performing-operations.cpp.obj.d
+build CMakeFiles/CppPlayground.dir/Array/maximum-number-of-words-found-in-sentences.cpp.obj: CXX_COMPILER__CppPlayground_Debug C$:/Github/CppPlaygound/Array/maximum-number-of-words-found-in-sentences.cpp || cmake_object_order_depends_target_CppPlayground
+  DEP_FILE = CMakeFiles\CppPlayground.dir\Array\maximum-number-of-words-found-in-sentences.cpp.obj.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles\CppPlayground.dir
   OBJECT_FILE_DIR = CMakeFiles\CppPlayground.dir\Array
@@ -63,7 +63,7 @@ build CMakeFiles/CppPlayground.dir/Array/final-value-of-variable-after-performin
 #############################################
 # Link the executable CppPlayground.exe
 
-build CppPlayground.exe: CXX_EXECUTABLE_LINKER__CppPlayground_Debug CMakeFiles/CppPlayground.dir/Array/final-value-of-variable-after-performing-operations.cpp.obj
+build CppPlayground.exe: CXX_EXECUTABLE_LINKER__CppPlayground_Debug CMakeFiles/CppPlayground.dir/Array/maximum-number-of-words-found-in-sentences.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\CppPlayground.dir
