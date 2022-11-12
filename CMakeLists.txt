@@ -4,4 +4,4 @@ project(CppPlayground)
 set(CMAKE_CXX_STANDARD 23)
 
 add_executable(CppPlayground
-        Array/kids-with-the-greatest-number-of-candies.cpp)
+        Array/decompress-run-length-encoded-list.cpp)
