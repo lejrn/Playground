@@ -4,4 +4,4 @@ project(CppPlayground)
 set(CMAKE_CXX_STANDARD 23)
 
 add_executable(CppPlayground
-        Array/largest-local-values-in-a-matrix.cpp)
+        Hashtables/check-if-the-sentence-is-pangram.cpp)
