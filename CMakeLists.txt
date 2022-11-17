@@ -4,4 +4,4 @@ project(CppPlayground)
 set(CMAKE_CXX_STANDARD 23)
 
 add_executable(CppPlayground
-        Hashtables/check-if-the-sentence-is-pangram.cpp)
+        Hashtables/unique-morse-code-words.cpp)
